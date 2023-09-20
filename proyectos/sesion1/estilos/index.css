@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url('../fonts/RobotoCondensed-LightItalic.ttf');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/RobotoCondensed-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+#parrafo3{
+    color: purple;
+}
+
+.miParrafo{
+    color: blue;
+}
+
+
+.miParrafo{
+    color: green;
+}
+
+p{
+    color: red;
+}
+p, a{
+    font-size: 20px;
+}
+
+p, .miParrafo{
+    font-style: italic;
+}
+
+p.miParrafo{
+    text-transform: capitalize;
+}
+
+#parrafo3.miParrafo{
+    text-decoration: underline;
+}
+
+.miParrafo{
+    background-color: red;
+    background-color: #224466;
+    background-color: rgb(90, 110, 200);
+    background-color: #224466c4;
+    background-color: rgba(90, 110, 200, 0.8);
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: red;
+    height: 300px;
+    width: 300px;;
+    margin: 20px 10px 30px 40px;
+    padding: 100px 10px;
+    border: 2px solid #000;
+    margin-top: 30px;
+    border-left: 30px dotted blue;
+    padding-right: 40px;
+}

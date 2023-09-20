@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- esto es un comentario-->
+    <h1>Hola mundo</h1>
+    <!-- hay hasta 6 tamaños de <h>-->
+    <!-- solo h1 por pagina, y no mas de 2 h2-->
+    <p class="" id="">Esto es un parrafo</p>
+    <a href="index2.html"></a>
+    <!-- href es un link digamos, dirige a un sitio -->
+    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" alt="imagen random"/>
+    <!-- dirige  a un source (una fuente), si esta rota no se vera (obv) -->
+    <div>
+        <!-- Es un contenedor para tener agrupadas las etiquetas -->
+        <p></p>
+        <p></p>
+        <p></p>
+        <!-- Cualquier etiqueta * numero me genera ese nº de esa etiqueta -->
+    </div>
+
+    <header>
+        <!-- Cabecera de la pagina -->
+        <nav></nav>
+    </header>
+    
+    <main>
+        <section>
+            <article>
+                <section></section>
+            </article>
+            <aside></aside>
+        </section>
+    </main>
+
+    <footer></footer>
+    <!-- Toda la parte de abajo de la pag. -->
+
+   <p>este es mi texto con <strong>negrita</strong></p> 
+    <!-- etq strong para negrita -->
+    <p>en <em>cursiva</em></p>
+    <!-- em para cursiva -->
+    <p>este es mi texto con <span>span</span></p>
+    <!-- el span no hace nada pero asi luego podemos darle estilos a esa parte -->
+
+    <ul>
+        <!-- lista desordenada -->
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <ol>
+        <!-- lista ordenada -->
+        <li>piscis</li>
+        <li>aries</li>
+        <li>leo</li>
+    </ol>
+
+    <table border="1">
+        <!-- con el border le damos "forma/estilo a la tabla" -->
+        <!-- No es responsive no se recomienda usar, se usa solo para emails -->
+        <thead>
+            <!-- aqui definidimos el numero de filas -->
+            <tr>
+                <!-- aqui ponemos distinas filas -->
+                <th>fila1</th>
+                <th>fila2</th>
+                <th>fila3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dato1</td>
+                <td>dato2</td>
+                <td>dato3</td>
+            </tr>
+            <tr>
+                <td>dato4</td>
+                <td>dato5</td>
+                <td>dato6</td>
+            </tr>
+            <tr>
+                <td>dato7</td>
+                <td>dato8</td>
+                <td>dato9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="" method="get">
+        <!-- action nos lleva a un sitio -->
+        <!--  -->
+        <fieldset>
+            <!-- aqui podemos agrupar inputs de nuestro formulario -->
+            <legend>Nombre, Apellidos y Edad</legend>
+            <input type="text" name="name" placeholder="name">
+            <input type="text" name="surname" placeholder="surname">
+            <input type="number" name="age" placeholder="age">
+            <!-- al darle tipo number solo admite numeros, igual con cualquier otro type-->
+            
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <!-- el legend nos incrusta un texto en la caja (un "titulo")-->
+            <input type="email" name="email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+            <input type="text" name="phone" placeholder="phone">
+            <input type="password" name="password" placeholder="password">
+        </fieldset>
+        <fieldset>
+            <legend>preferencias</legend>
+            <input type="date" name="date" required min="3" maxlength="15"/>
+            <input type="color" name="color" />
+            <input type="file" />
+            <select>
+                <option value="value1">Valor 1</option>
+                <option value="value2">Valor 2</option>
+                <option value="value3">Valor 3</option>
+                <option value="value4">Valor 4</option>
+            </select>
+            <input type="radio" name="fruta" id="" value="sandia"/> Sandia
+            <input type="radio" name="fruta" id="" value="melon"/> Melon
+            <input type="radio" name="fruta" id="" value="pera"/> Naranja
+
+            <input type="checkbox" name="intereses" id="" value="cine">
+            <input type="checkbox" name="intereses" id="" value="musica">
+            <input type="checkbox" name="intereses" id="" value="videojuegos">
+            <input type="checkbox" name="intereses" id="" value="comics">
+
+            <input type="hidden" name="hidden" id="" value="asdasd">
+            <br> <!-- para hacer saltos de linea -->
+            <input type="reset">reset</button>
+            <input type="submit" value="enviar" />
+            <input type="submit" /></button>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
